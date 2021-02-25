@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <control namespace="SDEVS" constructor="ClickToCall" version="0.0.3" display-name-key="ClickToCall" description-key="ClickToCall description" control-type="standard">
+    <property name="PhoneNumber" display-name-key="Phone Number" description-key="PhoneNumberKey" of-type-group="strings" usage="bound" required="true" />
+
+    <type-group name="strings">
+     <type>SingleLine.Phone</type>
+     <type>SingleLine.Text</type>
+    </type-group>
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/Component.css" order="1" />
+      <css path="css/Loader.css" order="2" />
+      <css path="css/Icon.css" order="3" />
+      <img path="img/ctc.png" />
+    </resources>
+  </control>
+</manifest>

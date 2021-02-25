@@ -1,0 +1,11 @@
+.vertical-center {
+    margin: 0;
+    min-width: 10%; 
+    overflow: hidden;
+    display: flex;
+  }
+
+.input{
+    width: 100vw;
+    border: none;
+}
